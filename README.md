@@ -1,33 +1,47 @@
-# Task Manager API
+# Task Manager API 🚀
 
-A Spring Boot REST API for managing tasks.
+A Spring Boot REST API for managing tasks, fully containerized using Docker and integrated with MySQL.
 
-## Features
-- CRUD operations for tasks
-- Pagination support
-- DTO pattern
-- Global exception handling
-- Swagger API documentation
-- H2 in-memory database
+## 🔧 Tech Stack
 
-## Technologies
-- Java
-- Spring Boot
-- Spring Data JPA
-- H2 Database
-- Maven
-- Swagger (OpenAPI)
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* MySQL
+* Docker & Docker Compose
 
-## API Endpoints
+## ✨ Features
 
-GET /tasks
-POST /tasks
-PUT /tasks/{id}
-DELETE /tasks/{id}
+* Create, update, delete tasks
+* RESTful API design
+* MySQL database integration
+* Dockerized backend + database
+* Swagger API documentation
 
-## Run the project
+## 🚀 How to Run
 
-mvn spring-boot:run
+### Using Docker
 
-Swagger UI:
-http://localhost:8080/swagger-ui/index.html
+```bash
+docker compose up --build
+```
+
+### Access API
+
+* Swagger UI: http://localhost:8080/swagger-ui.html
+
+## 📦 API Endpoints
+
+* GET /tasks
+* POST /tasks
+* PUT /tasks/{id}
+* DELETE /tasks/{id}
+
+## 📸 Screenshots
+
+
+
+## 👨‍💻 Author
+
+Archi Lodha
+
